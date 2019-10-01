@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capistrano', '3.6.0' # capistranoのツール一式
+  gem 'capistrano', '3.6.0'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
@@ -40,7 +40,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 gem 'dotenv-rails'
-gem 'unicorn' # アプリケーションサーバのunicorn
-gem 'mini_racer', platforms: :ruby # デプロイ時に必要
+gem 'unicorn'
+gem 'mini_racer', platforms: :ruby
 gem 'ed25519', '>= 1.2', '< 2.0'
 gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
